@@ -1,0 +1,96 @@
+:root {
+  --Purple: hsl(259, 100%, 65%);
+  --Light-red: hsl(0, 100%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Off-white: hsl(0, 0%, 94%);
+  --Light-grey: hsl(0, 0%, 86%);
+  --Smokey-grey: hsl(0, 1%, 44%);
+  --Off-black: hsl(0, 0%, 8%);
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--Light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: Poppins;
+}
+
+.card {
+  height: 35rem;
+  width: 45rem;
+  box-sizing: border-box;
+  padding: 40px;
+  background-color: var(--White);
+  border-radius: 20px 20px 200px 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  width: 35rem;
+  height: 9rem;
+  border-bottom: solid 1.5px var(--Light-grey);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+label{
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--Smokey-grey);
+  letter-spacing: 2px;
+}
+
+input {
+  width: 8rem;
+  height: 3.5rem;
+  margin-right: 2rem;
+  border-style: solid;
+  outline: none;
+  border-radius: 5px;
+  font-size: 32px;
+  box-sizing: border-box;
+  padding: 15px;
+  font-weight: 800;
+}
+
+input[type="text"]:focus {
+  border-color: hsla(259, 100%, 65%, 0.499) /* Change to the desired color */
+}
+
+svg {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 34rem;
+  margin-top: -2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: purple;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.bottom{
+  width: 40rem;
+  height: 21rem;
+  margin-top: -2rem;
+  font-size: 45px;
+  line-height: 25px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.number {
+  color: var(--Purple);
+}
