@@ -14,38 +14,42 @@
 </head>
 
 <body>
-  <div class="container">
+
     <div class="card">
+
       <div class="top">
+
         <div class="block">
           <label for="day">Day</label>
-          <input type="text" placeholder="DD">
+          <input type="text" placeholder="DD" id="dayInput">
         </div>
+
         <div class="block">
           <label for="month">Month</label>
-          <input type="text" placeholder="MM">
+          <input type="text" placeholder="MM" id="monthInput">
         </div>
+
         <div class="block">
           <label for="year">Year</label>
-          <input type="text" placeholder="YYYY">
+          <input type="text" placeholder="YYYY" id="yearInput">
         </div>
+
       </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44" id="calculateButton"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
 
       <div class="bottom">
+
         <div class="output-content">
-          <h1><span class="number" id="YY">38</span>years</h1>
-          <h1><span class="number" id="MM">7 </span>month</h1>
-          <h1><span class="number" id="DD">300 </span>days</h1>
+          <h1 id="addLetterS"><span class="number" id="YY">-- </span> years</h1>
+          <h1><span class="number" id="MM">-- </span> months</h1>
+          <h1><span class="number" id="DD">-- </span> days</h1>
         </div>
 
       </div>
     </div>
-  </div>
 
-
-  <div>
+  <script src="./script.js"></script>
 
 </body>
 </html>
