@@ -20,18 +20,21 @@
       <div class="top">
 
         <div class="block">
-          <label for="day">Day</label>
-          <input type="text" placeholder="DD" id="dayInput">
+          <label class="warningLabel" for="day">Day</label>
+            <input type="text" placeholder="DD" id="dayInput" class="warningInput">
+            <div id="dayWarning" class="warning"></div>
         </div>
 
         <div class="block">
-          <label for="month">Month</label>
-          <input type="text" placeholder="MM" id="monthInput">
+          <label class="warningLabel" for="month">Month</label>
+          <input type="text" placeholder="MM" id="monthInput" class="warningInput">
+          <div id="monthWarning" class="warning"></div>
         </div>
 
         <div class="block">
-          <label for="year">Year</label>
-          <input type="text" placeholder="YYYY" id="yearInput">
+          <label class="warningLabel" for="year">Year</label>
+          <input type="text" placeholder="YYYY" id="yearInput" class="warningInput">
+          <div id="yearWarning" class="warning"></div>
         </div>
 
       </div>
@@ -49,7 +52,8 @@
       </div>
     </div>
 
-  <script src="./script.js"></script>
+  <script src="./validations.js"></script>
+  <script src="./calculate.js"></script>
 
 </body>
 </html>

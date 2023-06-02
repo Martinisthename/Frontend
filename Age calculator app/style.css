@@ -40,6 +40,7 @@ html, body{
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
+  height: 100px;
 }
 
 label {
@@ -67,6 +68,15 @@ input[type="text"]:focus {
   border-color: hsla(259, 100%, 65%, 0.499) /* Change to the desired color */
 }
 
+.warning{
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 2rem;
+  color: var(--Light-red);
+}
+
 svg {
   width: 3rem;
   height: 3rem;
@@ -75,7 +85,7 @@ svg {
   border-radius: 50%;
   cursor: pointer;
   padding: 1rem;
-  background-color: purple;
+  background-color: var(--Off-black);
   border: none;
   outline: none;
   transition: 0.4s;
